@@ -6,7 +6,7 @@
 var blocksPerPage = 20,
     maxBlocks = 800,
     currentPage = 0,
-    decrementBlockHeightBy = 1000,
+    decrementBlockHeightBy = 0,
     explorerUpdateTimout = 15; // sec
 
 function updateStats() {
