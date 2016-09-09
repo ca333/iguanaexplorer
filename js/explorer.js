@@ -70,6 +70,8 @@ $(document).ready(function() {
         var searchTx = $.parseJSON(api.getTransaction(searchQuery));
         if (searchTx.timestamp) {
           getTxInfoModal(searchQuery);
+        } else {
+          alert('Not RT yet!');
         }
       }
     }
